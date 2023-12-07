@@ -1,0 +1,1 @@
+Procfile: web: sh setup.sh && streamlit run App.py
