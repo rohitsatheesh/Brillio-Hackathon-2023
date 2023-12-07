@@ -10,6 +10,7 @@ The GenAI HR App is a streamlined application developed using Streamlit, BERT (B
 - **BERT Matching Algorithm:** Employs BERT for accurate candidate-job matching based on skillsets, qualifications, and job requirements.
 - **MongoDB Atlas Integration:** Stores and manages candidate and job data using MongoDB Atlas, ensuring secure and scalable database operations.
 - **Candidate Shortlisting:** Enables HR personnel to efficiently shortlist candidates based on the matching algorithm results.
+- **Resume Viewing:** Enables HR to view resumes directly within the app.
 - **Automated Email Communication:** Facilitates the automation of sending emails to candidates, containing interview details such as link, date, and time.
 - **Job Management:** Provides the capability for HR to add and manage job openings within the system.
 
