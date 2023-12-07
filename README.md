@@ -21,7 +21,7 @@ To run the GenAI HR App locally, follow these steps:
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up necessary API keys:
    - OpenAI API key: Obtain your API key from OpenAI and set it up in the configuration file.
-   - MongoDB Atlas: Configure the database connection by providing the necessary credentials.
+   - MongoDB Atlas: Configure the database connection  and ensure the connection string is configured within the app.
 
 ## Usage
 
@@ -39,6 +39,7 @@ To run the GenAI HR App locally, follow these steps:
 
 Key libraries and tools used in this project:
 
+- Python 3.7 or higher
 - Streamlit
 - TensorFlow (for BERT)
 - OpenAI API
