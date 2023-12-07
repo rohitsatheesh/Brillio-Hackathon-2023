@@ -152,7 +152,7 @@ def page_three():
 
 def send_email(candidate_email,selected_job,interview_date,interview_time,url,emails):
     # Email configuration
-    email_sender = 'rohitsatheesh@gmail.com'
+    email_sender = #paste your email
     email_receiver = candidate_email
     subject = 'Invitation for Interview'
     # message = f"""Dear applicant,\n\nCongratulations!You've been shortlisted for the position of {selected_job} based on your skills and experience.Your interview details are:
@@ -189,8 +189,9 @@ def send_email(candidate_email,selected_job,interview_date,interview_time,url,em
     # SMTP server configuration (for example, Gmail)
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    smtp_username = 'rohitsatheesh@gmail.com'
-    smtp_password = 'fnpq spcc mgim rgkj'
+    smtp_username = #paste your email
+    smtp_password = #paste generated app password
+
     try:
     # Create message container - the correct MIME type is multipart/alternative
         msg = MIMEMultipart('alternative')
