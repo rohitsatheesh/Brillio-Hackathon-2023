@@ -31,7 +31,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 
 #openai api key
-openai.api_key="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"
+openai.api_key= #paste the openai api key
 
 def flatten_list(lst):
     flattened = []
