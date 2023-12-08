@@ -47,5 +47,8 @@ Key libraries and tools used in this project:
 - MongoDB Atlas (pymongo)
 
   ## Contributors
-  - [Niharika Joshi](https://github.com/Niharikajo) 
+  - [Niharika Joshi](https://github.com/Niharikajo) / [Linkedin ](https://www.linkedin.com/in/niharika-joshi-/)
+  - [Shivani Badam](https://github.com/shivanibadam) / [Linkedin](https://www.linkedin.com/in/shivani-badam-9668651b1/)
+  - [Harshal Rathod](https://www.linkedin.com/in/harshal-rathod-8452181b5/)
+  - [Rohit Satheesh Nair](https://www.linkedin.com/in/rohit-satheesh-nair-18765221b/)
   
