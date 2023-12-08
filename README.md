@@ -45,3 +45,7 @@ Key libraries and tools used in this project:
 - TensorFlow (for BERT)
 - OpenAI API
 - MongoDB Atlas (pymongo)
+
+  ## Contributors
+  - [Niharika Joshi](https://github.com/Niharikajo) / ([https://www.linkedin.com/in/niharika-joshi-](https://www.linkedin.com/in/niharika-joshi-/)
+  
