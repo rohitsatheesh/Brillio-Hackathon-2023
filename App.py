@@ -4,7 +4,6 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 st.production = True
 from docx2pdf import convert 
 import openai
-from dotenv import load_dotenv
 import os
 import io
 import base64
@@ -17,7 +16,7 @@ import torch
 from PyPDF2 import PdfReader 
 from pymongo import MongoClient
 import json
-load_dotenv()
+
 
 
 # Replace the following connection string with your MongoDB URI
@@ -34,7 +33,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 
 #openai api key
-os.getenv("OPENAI_API_KEY")
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def flatten_list(lst):
     flattened = []
